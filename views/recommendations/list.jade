@@ -1,0 +1,5 @@
+.body
+	ul
+		each item in recommendations
+			li
+				a(href='/recommendations/#{item.slug}')= item.title

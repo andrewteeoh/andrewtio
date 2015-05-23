@@ -1,0 +1,11 @@
+extends ../layout
+
+block scripts
+	script(type="text/javascript", src="/javascripts/anime.js")
+
+block content
+	.content
+
+	script.
+		!{JSON.stringify(anime)}
+
