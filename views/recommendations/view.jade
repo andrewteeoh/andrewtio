@@ -1,11 +1,14 @@
 extends ../layout
 
 block scripts
-	script(type="text/javascript", src="/javascripts/anime.js")
+	script(type="text/javascript", src="https://fb.me/react-with-addons-0.13.3.min.js")
+	script(type="text/javascript", src="https://fb.me/JSXTransformer-0.13.3.js")
+	script(type="text/jsx", src="/js/anime.js")
 
 block content
-	.content
+	#now-watching
+	#recommended
 
 	script.
-		!{JSON.stringify(anime)}
+		var anime = !{JSON.stringify(anime)}
 

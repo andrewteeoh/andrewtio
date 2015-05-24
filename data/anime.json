@@ -1,176 +1,191 @@
-[{
-	"name": "Tengen Toppa Gurren Lagann",
-  "description": "In their closed-off underground village, Kamina and Simon chafe at the limits imposed by the village elder. Yet all this will change, when Simon stumbles across a fantastic device— just as the village's peace is broken by a violent intrusion.",
-  "tags": ["must-watch", "action", "mecha"]
-},
 {
-	"name": "Ping Pong",
-  "description": "Childhood friends Makoto \"Smile\" Tsukimoto (ironically, he seldom smiles) and Yukata \"Peco\" Hoshino are capable and aspiring table tennis players of Katase High School. Coach Jō \"Butterfly\" Koizumi has high expectation to both of them, but when Peco gets decisively defeated by a Chinese student he becomes so devastated and stops practicing. Meanwhile, Koizumi discovers Smile's potential and tries to motivate him to overcome his psychological obstacle.",
-  "tags": ["must-watch", "sports", "slice-of-life"]
-},
-{
-	"name": "Anohana: The Flower We Saw That Day",
-  "description": "Five childhood friends grow apart after the death of Meiko Honma, close playmate of them all. Jinta Yadomi, leader of the group when they were kids, neglects high school and lives as a shut-in when he unexpectedly starts seeing the ghost of Meiko, who can only interact with him and no one else. She has returned to ask Jinta to fulfill the forgotten wish she made as a kid.",
-  "tags": ["must-watch", "slice-of-life", "drama"]
-},
-{
-	"name": "The Melancholy of Suzumiya Haruhi",
-  "description": "On the first day of high school a beautiful girl named Haruhi Suzumiya introduces herself as having \"no interest in ordinary humans\". She asks for any aliens, time travelers, sliders or espers to join her. Watching her weird behaviour is Kyon who sits in front of Haruhi and is the only person who talks to her. When Kyon comments about Haruhi's joining every club in school and then quitting he unwittingly gives Haruhi an idea to start her own after school club. Thereafter Kyon and several others find themselves dragged, literally, into the Save our world by Overloading it with fun Suzumiya Haruhi's Brigade (the S.O.S. Brigade for short).",
-  "tags": ["must-watch"]
-},
-{
-	"name": "Full Metal Alchemist:Brotherhood",
-  "description": "Two brothers lose their mother to an incurable disease. With the power of \"alchemy\", they use taboo knowledge to resurrect her. The process fails, and as a toll for using this type of alchemy, the older brother, Edward Elric loses his left leg while the younger brother, Alphonse Elric loses his entire body. To save his brother, Edward sacrifices his right arm and is able to affix his brother's soul to a suit of armor. With the help of a family friend, Edward receives metal limbs - \"automail\" - to replace his lost ones. With that, Edward vows to search for the Philosopher's Stone to return the brothers to their original bodies, even if it means becoming a \"State Alchemist\", one who uses his/her alchemy for the military.",
-  "tags": ["must-watch", "action", "drama"]
-},
-{
-	"name": "Full Metal Alchemist",
-  "description": "",
-  "tags": ["action", "drama"]
-},
-{
-	"name": "Star Driver: Kagayaki no Takuto",
-  "description": "",
-  "tags": ["action", "mecha"]
-},
-{
-	"name": "Xam'd: Lost Memories",
-  "description": "",
-  "tags": ["action", "sci-fi"]
-},
-{
-	"name": "Samurai Champloo",
-  "description": "",
-  "tags": ["action", "adventure", "comedy", "shonen"]
-},
-{
-	"name": "Bleach",
-  "description": "",
-  "tags": ["action", "shonen"]
-},
-{
-	"name": "Naruto",
-  "description": "",
-  "tags": ["action", "shonen"]
-},
-{
-	"name": "One Piece",
-  "description": "",
-  "tags": ["action", "shonen", "must-watch"]
-},
-{
-	"name": "Death Note",
-  "description": "",
-  "tags": ["drama", "thriller"]
-},
-{
-	"name": "DragonBall Z Kai ~50",
-  "description": "",
-  "tags": ["action", "shonen"]
-},
-{
-	"name": "Gundam Seed",
-  "description": "",
-  "tags": ["mecha", "action"]
-},
-{
-	"name": "Gundam 00",
-  "description": "",
-  "tags": ["mecha", "action"]
-},
-{
-	"name": "Cowboy Bebop",
-  "description": "",
-  "tags": ["sci-fi", "action", "comedy"]
-},
-{
-	"name": "Time of Eve",
-  "description": "",
-  "tags": [""]
-},
-{
-	"name": "Evangelion",
-  "description": "",
-  "tags": ["mecha", "action"]
-},
-{
-	"name": "Eureka 7",
-  "description": "",
-  "tags": ["mecha", "action", "sci-fi"]
-},
-{
-	"name": "Ginga E Kickoff",
-  "description": "",
-  "tags": ["sports"]
-},
-{
-	"name": "Ookiku Furikabutte (Big Windup!)",
-  "description": "",
-  "tags": ["sports"]
-},
-{
-	"name": "Eyeshield 21",
-  "description": "",
-  "tags": ["sports", "shonen"]
-},
-{
-	"name": "Prince of Tennis",
-  "description": "",
-  "tags": ["sports", "shonen"]
-},
-{
-	"name": "Usagi Drop",
-  "description": "",
-  "tags": ["slice-of-life"]
-},
-{
-	"name": "Slam Dunk",
-  "description": "",
-  "tags": ["sports", "shonen", "must-watch"]
-},
-{
-	"name": "Noragami",
-  "description": "",
-  "tags": ["supernatural"]
-},
-{
-	"name": "Kill La Kill",
-  "description": "",
-  "tags": []
-},
-{
-	"name": "Hunter x Hunter",
-  "description": "",
-  "tags": ["shonen", "action"]
-},
-{
-	"name": "Fate Zero",
-  "description": "",
-  "tags": []
-},
-{
-	"name": "FLCL",
-	"description": "",
-	"tags": []
-},
-{
-	"name": "Attack on Titan",
-  "description": "",
-  "tags": ["action", "drama", "shonen"]
-},
-{
-	"name": "Sword Art Online",
-  "description": "",
-  "tags": ["fantasy", "adventure", "action"]
-},
-{
-	"name": "Aldnoah Zero Season 1",
-  "description": "",
-  "tags": ["mecha", "sci-fi", "action"]
-},
-{
-	"name": "Noein",
-  "description": "",
-  "tags": ["sci-fi"]
-}]
+  "currentlyWatching": [{
+      "name": "Hibike! Euphonium! (Sound! Euphonium)",
+      "description":""
+    },
+    {
+      "name": "Kekkai Sensen (Blood Blockade Battlefront)",
+      "description": ""
+    },
+    {
+      "name": "Owari no Seraph (Seraph of the End)",
+      "description": ""
+    }
+  ],
+  "recommendations": [{
+  	"name": "Tengen Toppa Gurren Lagann",
+    "description": "In their closed-off underground village, Kamina and Simon chafe at the limits imposed by the village elder. Yet all this will change, when Simon stumbles across a fantastic device— just as the village's peace is broken by a violent intrusion.",
+    "tags": ["must-watch", "action", "mecha"]
+  },
+  {
+  	"name": "Ping Pong",
+    "description": "Childhood friends Makoto \"Smile\" Tsukimoto (ironically, he seldom smiles) and Yukata \"Peco\" Hoshino are capable and aspiring table tennis players of Katase High School. Coach Jō \"Butterfly\" Koizumi has high expectation to both of them, but when Peco gets decisively defeated by a Chinese student he becomes so devastated and stops practicing. Meanwhile, Koizumi discovers Smile's potential and tries to motivate him to overcome his psychological obstacle.",
+    "tags": ["must-watch", "sports", "slice-of-life"]
+  },
+  {
+  	"name": "Anohana: The Flower We Saw That Day",
+    "description": "Five childhood friends grow apart after the death of Meiko Honma, close playmate of them all. Jinta Yadomi, leader of the group when they were kids, neglects high school and lives as a shut-in when he unexpectedly starts seeing the ghost of Meiko, who can only interact with him and no one else. She has returned to ask Jinta to fulfill the forgotten wish she made as a kid.",
+    "tags": ["must-watch", "slice-of-life", "drama"]
+  },
+  {
+  	"name": "The Melancholy of Suzumiya Haruhi",
+    "description": "On the first day of high school a beautiful girl named Haruhi Suzumiya introduces herself as having \"no interest in ordinary humans\". She asks for any aliens, time travelers, sliders or espers to join her. Watching her weird behaviour is Kyon who sits in front of Haruhi and is the only person who talks to her. When Kyon comments about Haruhi's joining every club in school and then quitting he unwittingly gives Haruhi an idea to start her own after school club. Thereafter Kyon and several others find themselves dragged, literally, into the Save our world by Overloading it with fun Suzumiya Haruhi's Brigade (the S.O.S. Brigade for short).",
+    "tags": ["must-watch"]
+  },
+  {
+  	"name": "Full Metal Alchemist:Brotherhood",
+    "description": "Two brothers lose their mother to an incurable disease. With the power of \"alchemy\", they use taboo knowledge to resurrect her. The process fails, and as a toll for using this type of alchemy, the older brother, Edward Elric loses his left leg while the younger brother, Alphonse Elric loses his entire body. To save his brother, Edward sacrifices his right arm and is able to affix his brother's soul to a suit of armor. With the help of a family friend, Edward receives metal limbs - \"automail\" - to replace his lost ones. With that, Edward vows to search for the Philosopher's Stone to return the brothers to their original bodies, even if it means becoming a \"State Alchemist\", one who uses his/her alchemy for the military.",
+    "tags": ["must-watch", "action", "drama"]
+  },
+  {
+  	"name": "Full Metal Alchemist",
+    "description": "",
+    "tags": ["action", "drama"]
+  },
+  {
+  	"name": "Star Driver: Kagayaki no Takuto",
+    "description": "",
+    "tags": ["action", "mecha"]
+  },
+  {
+  	"name": "Xam'd: Lost Memories",
+    "description": "",
+    "tags": ["action", "sci-fi"]
+  },
+  {
+  	"name": "Samurai Champloo",
+    "description": "",
+    "tags": ["action", "adventure", "comedy", "shonen"]
+  },
+  {
+  	"name": "Bleach",
+    "description": "",
+    "tags": ["action", "shonen"]
+  },
+  {
+  	"name": "Naruto",
+    "description": "",
+    "tags": ["action", "shonen"]
+  },
+  {
+  	"name": "One Piece",
+    "description": "",
+    "tags": ["action", "shonen", "must-watch"]
+  },
+  {
+  	"name": "Death Note",
+    "description": "",
+    "tags": ["drama", "thriller"]
+  },
+  {
+  	"name": "DragonBall Z Kai ~50",
+    "description": "",
+    "tags": ["action", "shonen"]
+  },
+  {
+  	"name": "Gundam Seed",
+    "description": "",
+    "tags": ["mecha", "action"]
+  },
+  {
+  	"name": "Gundam 00",
+    "description": "",
+    "tags": ["mecha", "action"]
+  },
+  {
+  	"name": "Cowboy Bebop",
+    "description": "",
+    "tags": ["sci-fi", "action", "comedy"]
+  },
+  {
+  	"name": "Time of Eve",
+    "description": "",
+    "tags": [""]
+  },
+  {
+  	"name": "Evangelion",
+    "description": "",
+    "tags": ["mecha", "action"]
+  },
+  {
+  	"name": "Eureka 7",
+    "description": "",
+    "tags": ["mecha", "action", "sci-fi"]
+  },
+  {
+  	"name": "Ginga E Kickoff",
+    "description": "",
+    "tags": ["sports"]
+  },
+  {
+  	"name": "Ookiku Furikabutte (Big Windup!)",
+    "description": "",
+    "tags": ["sports"]
+  },
+  {
+  	"name": "Eyeshield 21",
+    "description": "",
+    "tags": ["sports", "shonen"]
+  },
+  {
+  	"name": "Prince of Tennis",
+    "description": "",
+    "tags": ["sports", "shonen"]
+  },
+  {
+  	"name": "Usagi Drop",
+    "description": "",
+    "tags": ["slice-of-life"]
+  },
+  {
+  	"name": "Slam Dunk",
+    "description": "",
+    "tags": ["sports", "shonen", "must-watch"]
+  },
+  {
+  	"name": "Noragami",
+    "description": "",
+    "tags": ["supernatural"]
+  },
+  {
+  	"name": "Kill La Kill",
+    "description": "",
+    "tags": []
+  },
+  {
+  	"name": "Hunter x Hunter",
+    "description": "",
+    "tags": ["shonen", "action"]
+  },
+  {
+  	"name": "Fate Zero",
+    "description": "",
+    "tags": []
+  },
+  {
+  	"name": "FLCL",
+  	"description": "",
+  	"tags": []
+  },
+  {
+  	"name": "Attack on Titan",
+    "description": "",
+    "tags": ["action", "drama", "shonen"]
+  },
+  {
+  	"name": "Sword Art Online",
+    "description": "",
+    "tags": ["fantasy", "adventure", "action"]
+  },
+  {
+  	"name": "Aldnoah Zero Season 1",
+    "description": "",
+    "tags": ["mecha", "sci-fi", "action"]
+  },
+  {
+  	"name": "Noein",
+    "description": "",
+    "tags": ["sci-fi"]
+  }]
+}
 
