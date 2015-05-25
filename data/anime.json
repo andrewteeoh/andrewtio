@@ -1,18 +1,4 @@
-{
-  "currentlyWatching": [{
-      "name": "Hibike! Euphonium! (Sound! Euphonium)",
-      "description":""
-    },
-    {
-      "name": "Kekkai Sensen (Blood Blockade Battlefront)",
-      "description": ""
-    },
-    {
-      "name": "Owari no Seraph (Seraph of the End)",
-      "description": ""
-    }
-  ],
-  "recommendations": [{
+[{
   	"name": "Tengen Toppa Gurren Lagann",
     "description": "In their closed-off underground village, Kamina and Simon chafe at the limits imposed by the village elder. Yet all this will change, when Simon stumbles across a fantastic device— just as the village's peace is broken by a violent intrusion.",
     "tags": ["must-watch", "action", "mecha"]
@@ -100,7 +86,7 @@
   {
   	"name": "Time of Eve",
     "description": "",
-    "tags": [""]
+    "tags": ["slice-of-life"]
   },
   {
   	"name": "Evangelion",
@@ -150,7 +136,7 @@
   {
   	"name": "Kill La Kill",
     "description": "",
-    "tags": []
+    "tags": ["action"]
   },
   {
   	"name": "Hunter x Hunter",
@@ -160,12 +146,12 @@
   {
   	"name": "Fate Zero",
     "description": "",
-    "tags": []
+    "tags": ["action"]
   },
   {
   	"name": "FLCL",
   	"description": "",
-  	"tags": []
+  	"tags": ["action"]
   },
   {
   	"name": "Attack on Titan",
@@ -186,6 +172,6 @@
   	"name": "Noein",
     "description": "",
     "tags": ["sci-fi"]
-  }]
-}
+  }
+]
 

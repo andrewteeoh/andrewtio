@@ -8,3 +8,11 @@ body {
 a {
   color: #00B7FF;
 }
+.anime {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.anime.hidden {
+  display: none;
+}
