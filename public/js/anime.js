@@ -35,7 +35,7 @@ var AnimeSort = React.createClass({
     var newAnime = [];
     if (_.indexOf(activeTags, tag) >= 0) {
       // remove it
-      _.remove(activeTags, tag);
+      activeTags = _.remove(activeTags, tag);
     } else {
       // add it
       activeTags.push(tag);
@@ -93,9 +93,7 @@ var TagFilters = React.createClass({
 
 var TagButton = React.createClass({
   checkTag: function() {
-    if (this.refs[this.props.data].getDOMNode().checked) {
       this.props.onUserCheck(this.refs[this.props.data].getDOMNode().value);
-    }
   },
   render: function() {
     return <span>{this.props.data}<input type="checkbox" name={this.props.data} value={this.props.data} onChange={this.checkTag} ref={this.props.data} /></span>
@@ -109,7 +107,7 @@ var AnimeList = React.createClass({
       return (<Anime anime={anime} />);
     });
     return (
-      <div>
+      <div className="anime-list">
         {animeItems}
       </div>
     );
@@ -119,13 +117,20 @@ var AnimeList = React.createClass({
 var Anime = React.createClass({
   render: function() {
     var classString = "anime";
+    var imageUrl = '/images/';
     if (this.props.anime.isHidden) {
       var classString = classString + " hidden";
     }
+    imageUrl = imageUrl + this.props.anime.slug + '.jpg';
+    style = {
+      backgroundImage: "url('" + imageUrl + "');"
+    };
     return (
       <div className={classString}>
-        <div>{this.props.anime.name}</div>
-        <div>{this.props.anime.description}</div>
+        <div className="anime__image" style={style}>
+          <div className="anime__name">{this.props.anime.name}</div>
+        </div>
+        <div className="anime__description">{this.props.anime.description}</div>
         <AnimeTags tags={this.props.anime.tags} />
       </div>
     );
@@ -141,7 +146,7 @@ var AnimeTags = React.createClass({
       );
     });
     return (
-      <div>
+      <div className="tag-list">
         {tags}
       </div>
     );
@@ -150,7 +155,7 @@ var AnimeTags = React.createClass({
 
 var AnimeTag = React.createClass({
   render: function() {
-    return (<span>{this.props.data}</span>);
+    return (<span className="tag">{this.props.data}</span>);
   }
 });
 
