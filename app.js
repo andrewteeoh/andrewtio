@@ -4,7 +4,7 @@
  */
 
 var express = require('express'),
-  routes = require('./routes'),
+  home = require('./routes/index'),
   recommendations = require('./routes/recommendations'),
   http = require('http'),
   path = require('path');
@@ -27,7 +27,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', home.index);
 app.get('/recommendations/', recommendations.list)
 app.get('/recommendations/:slug', recommendations.view);
 
