@@ -1,0 +1,17 @@
+header {
+  height: 60px;
+  background-color: #000;
+}
+nav li {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+nav a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
