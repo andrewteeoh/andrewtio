@@ -1,6 +1,15 @@
+.feature {
+  padding: 2rem;
+}
 .feature h1 {
   text-align: center;
 }
 .feature p {
   text-align: center;
+}
+.profile-picture {
+  width: 10rem;
+  border-radius: 5rem;
+  margin: 0 auto;
+  display: block;
 }

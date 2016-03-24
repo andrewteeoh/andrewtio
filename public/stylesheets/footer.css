@@ -1,4 +1,20 @@
 footer {
   background-color: #000;
   margin: 0;
+  padding: 2rem;
+}
+footer ul li {
+  margin: 0.5rem 0;
+}
+footer ul li:first-child {
+  margin-top: 0;
+}
+.social-links {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+.pokemon {
+  float: left;
+  width: 30%;
 }

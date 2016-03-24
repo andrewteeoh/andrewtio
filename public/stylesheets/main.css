@@ -126,6 +126,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+/* close commented backslash hack */
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -170,11 +189,20 @@ nav a:hover {
   color: #fff;
   text-decoration: underline;
 }
+.feature {
+  padding: 2rem;
+}
 .feature h1 {
   text-align: center;
 }
 .feature p {
   text-align: center;
+}
+.profile-picture {
+  width: 10rem;
+  border-radius: 5rem;
+  margin: 0 auto;
+  display: block;
 }
 .anime-list {
   display: flex;
@@ -230,4 +258,20 @@ nav a:hover {
 footer {
   background-color: #000;
   margin: 0;
+  padding: 2rem;
+}
+footer ul li {
+  margin: 0.5rem 0;
+}
+footer ul li:first-child {
+  margin-top: 0;
+}
+.social-links {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+.pokemon {
+  float: left;
+  width: 30%;
 }
