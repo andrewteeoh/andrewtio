@@ -117,7 +117,7 @@ var AnimeList = React.createClass({
 var Anime = React.createClass({
   render: function() {
     var classString = "anime";
-    var imageUrl = '/images/';
+    var imageUrl = '/images/anime/';
     if (this.props.anime.isHidden) {
       var classString = classString + " hidden";
     }
