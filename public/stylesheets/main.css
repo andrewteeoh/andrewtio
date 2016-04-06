@@ -213,6 +213,12 @@ nav a:hover {
   margin: 0 auto;
   display: block;
 }
+.introduction {
+  margin-top: 1rem;
+}
+.description {
+  margin-top: 1rem;
+}
 .anime-list {
   display: flex;
   flex-flow: row wrap;
