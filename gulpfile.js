@@ -11,6 +11,11 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./public/stylesheets'));
 });
 
+gulp.task('fonts', function() {
+  return gulp.src('node_modules/font-awesome/fonts/*')
+    .pipe(gulp.dest('public/fonts'))
+})
+
 // gulp.task('javascript', function () {
 //   var browserified = function(filename){
 //     var b = browserify(filename);
