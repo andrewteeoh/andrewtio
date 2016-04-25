@@ -1,0 +1,7 @@
+@sm: 30rem;
+
+.bp(@size; @styles) when (@size = sm) {
+	@media only screen and (min-width: @sm) {
+			@styles();
+	}
+}

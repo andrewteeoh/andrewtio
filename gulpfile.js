@@ -4,9 +4,9 @@ var path = require('path');
 var browserify = require('browserify');
 
 gulp.task('less', function () {
-  return gulp.src('./less/**/*.less')
+  return gulp.src('./less/main.less')
     .pipe(less({
-      paths: [ path.join(__dirname, 'less', 'includes') ]
+      paths: [ path.join(__dirname, 'less') ]
     }))
     .pipe(gulp.dest('./public/stylesheets'));
 });
