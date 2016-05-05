@@ -17,16 +17,20 @@
 	text-align: center;
 }
 .profile-picture {
-	width: 10rem;
-	border-radius: 5rem;
+	width: 25%;
+	min-width: 10rem;
+	border-radius: 50%;
 	margin: 0 auto;
 	display: block;
 	.bp(sm, {
 		margin-top: 1rem;
 	});
+	.bp(md, {
+		max-width: 15rem;
+	});
 }
 .heading {
-	margin-top: 15%;
+	margin-top: 5%;
 	font-size: 2rem;
 }
 .description {
@@ -34,6 +38,7 @@
 	line-height: 1.6rem;
 }
 .links {
+	margin-top: 1rem;
 	.links__item {
 		display: inline-block;
 	}

@@ -2369,7 +2369,7 @@ nav {
   margin: 0 auto;
 }
 .navigation-list {
-  float: right;
+  float: left;
   line-height: 40px;
 }
 .navigation-list__item {
@@ -2404,8 +2404,9 @@ nav a:hover {
   text-align: center;
 }
 .profile-picture {
-  width: 10rem;
-  border-radius: 5rem;
+  width: 25%;
+  min-width: 10rem;
+  border-radius: 50%;
   margin: 0 auto;
   display: block;
 }
@@ -2414,13 +2415,21 @@ nav a:hover {
     margin-top: 1rem;
   }
 }
+@media only screen and (min-width: 40rem) {
+  .profile-picture {
+    max-width: 15rem;
+  }
+}
 .heading {
-  margin-top: 15%;
+  margin-top: 5%;
   font-size: 2rem;
 }
 .description {
   margin-top: 1rem;
   line-height: 1.6rem;
+}
+.links {
+  margin-top: 1rem;
 }
 .links .links__item {
   display: inline-block;
@@ -2434,6 +2443,16 @@ nav a:hover {
 }
 .links .fa {
   font-size: 2rem;
+}
+.portfolio {
+  width: 80%;
+  margin: 0 auto;
+}
+.portfolio .logo {
+  width: 10rem;
+}
+.portfolio .description {
+  float: left;
 }
 .anime-list {
   display: flex;

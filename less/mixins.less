@@ -1,7 +1,13 @@
 @sm: 30rem;
+@md: 40rem;
 
 .bp(@size; @styles) when (@size = sm) {
 	@media only screen and (min-width: @sm) {
+			@styles();
+	}
+}
+.bp(@size; @styles) when (@size = md) {
+	@media only screen and (min-width: @md) {
 			@styles();
 	}
 }
