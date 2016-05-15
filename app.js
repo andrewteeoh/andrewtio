@@ -6,6 +6,7 @@
 var express = require('express'),
   home = require('./routes/index'),
   recommendations = require('./routes/recommendations'),
+  playground = require('./routes/playground'),
   http = require('http'),
   path = require('path');
 
@@ -31,6 +32,7 @@ if ('development' == app.get('env')) {
 app.get('/', home.index);
 app.get('/recommendations/', recommendations.list)
 app.get('/recommendations/:slug', recommendations.view);
+app.get('/playground', playground.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

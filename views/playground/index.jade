@@ -1,0 +1,12 @@
+html
+  head
+    title
+    link(rel='stylesheet', href='/stylesheets/moving-tiles.css')
+    script(type='text/javascript', src='https://code.jquery.com/jquery-1.12.3.min.js', integrity='sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=', crossorigin='anonymous')
+  body
+    .container
+      each image in images
+        .tile
+          img.tile__image(src=image.src, style='background-color: #{image.color};')
+
+    script(type='text/javascript', src="/js/moving-tiles.js")

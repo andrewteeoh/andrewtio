@@ -4,7 +4,7 @@ var path = require('path');
 var browserify = require('browserify');
 
 gulp.task('less', function () {
-  return gulp.src('./less/main.less')
+  return gulp.src(['./less/**/main.less', './less/moving-tiles.less'])
     .pipe(less({
       paths: [ path.join(__dirname, 'less') ]
     }))

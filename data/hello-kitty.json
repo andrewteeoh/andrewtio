@@ -1,0 +1,38 @@
+[
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-wave.png",
+		"color": "green"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty.png",
+		"color": "blue"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-reading.png",
+		"color": "yellow"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-basketball.png",
+		"color": "pink"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-phone.png",
+		"color": "red"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty.png",
+		"color": "orange"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-basketball.png",
+		"color": "blue"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-phone.png",
+		"color": "pink"
+	},
+	{
+		"src": "/images/playground/hello-kitty/hello-kitty-wave.png",
+		"color": "yellow"
+	}
+]
