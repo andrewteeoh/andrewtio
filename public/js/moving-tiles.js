@@ -1,10 +1,7 @@
-var positions = [];
-var currentSelectedPosition = 6;
-
-function Tile (id) {
+var Tile = function($el, id) {
   this.id = id;
   this.selected = false;
-  this.$tile;
+  this.$tile = $el;
 }
 
 Tile.prototype.setSelected = function(selected) {
@@ -13,34 +10,40 @@ Tile.prototype.setSelected = function(selected) {
 Tile.prototype.isSelected = function() {
   return this.selected;
 }
-Tile.prototype.setTile = function($el) {
-  this.$tile = $el;
-}
-Tile.prototype.getTile = function( ){
+Tile.prototype.getTile = function(){
   return this.$tile;
 }
 
-function init() {
-  $(".tile").each(function(i){
-    var tile = new Tile(i);
-    $(this).data("index", i);
-    if (i == currentSelectedPosition) {
-      tile.setSelected(true);
-    }
-    tile.setTile($(this));
-    positions.push(tile);
-  });
-  render();
+
+var MovingTiles = function(el) {
+  this.el = el
+  this.$el = $(el);
+  this.positions = [];
+  this.currentSelectedPosition = 6;
+
+  this.init();
 }
 
-init();
+MovingTiles.prototype.init = function() {
+  var self = this;
+  this.$el.find(".tile").each(function(i, element){
+    var tile = new Tile($(element), i);
+    $(this).data("index", i);
+    if (i == self.currentSelectedPosition) {
+      tile.setSelected(true);
+    }
+    self.positions.push(tile);
+  });
+  this.render();
+  this.bind();
+}
 
-function render() {
+MovingTiles.prototype.render = function() {
   var x = 0;
   var y = 0;
-  for(var i = 0; i<positions.length; i++) {
-    positions[i].getTile().css("top", y * 50 + "%");
-    positions[i].getTile().css("left", x * 15 + "%");
+  for(var i = 0; i<this.positions.length; i++) {
+    this.positions[i].getTile().css("top", y * 50 + "%");
+    this.positions[i].getTile().css("left", x * 15 + "%");
 
     if (y == 0){
       y = 1;
@@ -48,21 +51,21 @@ function render() {
       y = 0;
       x++;
     }
-    if (positions[i].isSelected()) {
-      positions[i].getTile().addClass("select");
+    if (this.positions[i].isSelected()) {
+      this.positions[i].getTile().addClass("select");
       y = 0;
       x += 2;
     } else {
-      positions[i].getTile().removeClass("select");
+      this.positions[i].getTile().removeClass("select");
     }
    }
 }
 
-function reorder(id) {
+MovingTiles.prototype.reorder = function(id) {
   var selectedTilePosition = 0;
   var selectedTile;
   var newPosition = 0;
-  positions.forEach(function(tile, i){
+  this.positions.forEach(function(tile, i){
     if (tile.id == id) {
       // found the tile we are hovering
       tile.setSelected(true);
@@ -72,9 +75,9 @@ function reorder(id) {
       tile.setSelected(false);
     }
   });
-  selectedTile = positions.splice(selectedTilePosition, 1)[0];
+  selectedTile = this.positions.splice(selectedTilePosition, 1)[0];
 
-  if (selectedTilePosition > currentSelectedPosition) {
+  if (selectedTilePosition > this.currentSelectedPosition) {
     // selecting from right of already selected tile
     if (selectedTilePosition % 2 == 1){
       // if odd
@@ -92,11 +95,17 @@ function reorder(id) {
     }
   }
 
-  positions.splice(newPosition, 0, selectedTile);
-  currentSelectedPosition = newPosition;
+  this.positions.splice(newPosition, 0, selectedTile);
+  this.currentSelectedPosition = newPosition;
 }
 
-$(".tile").on("mouseover", function(){
-  reorder($(this).data("index"));
-  render();
-});
+MovingTiles.prototype.bind = function(){
+  var self = this
+  $(this.el + " .tile").on("mouseover", function(){
+    self.reorder($(this).data("index"));
+    self.render();
+  });
+}
+
+var container1 = new MovingTiles(".moving-tiles1");
+var container2 = new MovingTiles(".moving-tiles2");
