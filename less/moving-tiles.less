@@ -9,20 +9,39 @@
   height: 50%;
   position: absolute;
   top: 0;
-  transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
-  background-color: white;
+  transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, background-color 0.5s;
+  background-color: transparent;
 }
 .tile.select {
   width: 30%;
   height: 100%;
   z-index: 1;
   animation: size 0.5s ease-in-out;
+  &.yellow {
+    background-color: #fffd2e;
+  }
+  &.blue {
+    background-color: #5eccff;
+  }
+  &.green {
+    background-color: #73bf73;
+  }
+  &.pink {
+    background-color: #fd99a7;
+  }
+  &.red {
+    background-color: #d90c29;
+  }
+  &.orange {
+    background-color: #faaa2c;
+  }
 }
 .tile__image {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
+  background-color: transparent;
 }
 
 @keyframes size {
