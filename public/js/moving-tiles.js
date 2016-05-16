@@ -16,8 +16,9 @@ Tile.prototype.getTile = function(){
 
 
 var MovingTiles = function(el) {
-  this.el = el
+  this.el = el;
   this.$el = $(el);
+  this.tileWidth = 0;
   this.positions = [];
   this.currentSelectedPosition = 6;
 
@@ -34,6 +35,7 @@ MovingTiles.prototype.init = function() {
     }
     self.positions.push(tile);
   });
+  this.tileWidth = 100/Math.ceil(this.positions.length/2 + 1);
   this.render();
   this.bind();
 }
@@ -42,8 +44,12 @@ MovingTiles.prototype.render = function() {
   var x = 0;
   var y = 0;
   for(var i = 0; i<this.positions.length; i++) {
-    this.positions[i].getTile().css("top", y * 50 + "%");
-    this.positions[i].getTile().css("left", x * 15 + "%");
+
+    var styles = {
+      width: this.tileWidth + "%",
+      top: y * 50 + "%",
+      left: x * this.tileWidth + "%"
+    }
 
     if (y == 0){
       y = 1;
@@ -52,12 +58,15 @@ MovingTiles.prototype.render = function() {
       x++;
     }
     if (this.positions[i].isSelected()) {
+      styles.width = 2*this.tileWidth + "%";
       this.positions[i].getTile().addClass("select");
       y = 0;
       x += 2;
     } else {
       this.positions[i].getTile().removeClass("select");
     }
+
+    this.positions[i].getTile().css(styles);
    }
 }
 

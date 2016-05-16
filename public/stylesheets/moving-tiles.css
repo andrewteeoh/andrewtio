@@ -5,18 +5,20 @@
   background-color: #ccc;
 }
 .tile {
-  width: 15%;
+  width: auto;
   height: 50%;
   position: absolute;
   top: 0;
   transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, background-color 0.5s;
   background-color: transparent;
 }
+.tile:hover {
+  cursor: pointer;
+}
 .tile.select {
-  width: 30%;
+  width: auto;
   height: 100%;
   z-index: 1;
-  animation: size 0.5s ease-in-out;
 }
 .tile.select.yellow {
   background-color: #fffd2e;
